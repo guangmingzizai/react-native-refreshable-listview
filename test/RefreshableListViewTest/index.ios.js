@@ -1,4 +1,5 @@
-var React = require('react-native');
+var React = require('react');
+var ReactNative = require('react-native')
 var {
   AppRegistry,
   StyleSheet,
@@ -6,7 +7,7 @@ var {
   View,
   ListView,
   StatusBarIOS,
-} = React;
+} = ReactNative;
 
 var RefreshableListView = require('react-native-refreshable-listview')
 var delay = require('react-native-refreshable-listview/lib/delay')
