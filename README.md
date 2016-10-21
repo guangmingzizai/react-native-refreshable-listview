@@ -179,7 +179,7 @@ Component with activity indicator to be displayed in list header when refreshing
   A stylesheet object which overrides one or more of the styles defined in the
   [RefreshingIndicator stylesheet](lib/RefreshingIndicator.js).
 - `activityIndicatorComponent: oneOfType([func, element])`
-  The spinner to display. Defaults to `<ActivityIndicatorIOS />`.
+  The spinner to display. Defaults to `<ActivityIndicator />`.
 
 ### RefreshableListView.DataSource, ControlledRefreshableListView.DataSource
 Aliases of `ListView.DataSource`, for convenience.
